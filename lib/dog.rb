@@ -12,8 +12,9 @@ def all_dog_names(all)
      self.all = all 
      @@all = all 
 		end 
-		def self.print_all 
-		  print_all.each { |dog_name| puts dog_name.name }
+		def print_all(all_dog_name)
+		  self. print_all = all_dog_name
+		  print_all.each { |all_dog_name| puts all_dog_name.name }
 		end 
 		
 			def save_dog_names(save) 
