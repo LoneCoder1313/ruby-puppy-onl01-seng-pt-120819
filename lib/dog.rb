@@ -49,6 +49,10 @@ class Dog
 		@@all.each do |dog|
 			puts dog.name
 		end
+			def print_all(all_dog_name)
+# 		  self. print_all = all_dog_name
+# 		  print_all.each { |all_dog_name| puts all_dog_name.name }
+# 		end 
 		
 	end
 end 
