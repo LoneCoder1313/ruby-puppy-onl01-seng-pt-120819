@@ -9,7 +9,8 @@ class Dog
 		@@all << self
 	end
 def self.all
-		@@all << self
+		self.all_with_each do |name|
+		end 
 		end 
 		def self.print_all 
 		  print_all.each { |dog_name| puts dog_name.name }
