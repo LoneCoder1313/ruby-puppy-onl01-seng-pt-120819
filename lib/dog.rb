@@ -8,8 +8,9 @@ class Dog
 		@name = name
 		@@all << self
 	end
-def all_dog_names(all)
-     self.all = all 
+
+def all_dogs(all)
+     self.all = all_dogs 
      @@all << self 
 		end 
 		def print_all(all_dog_name)
