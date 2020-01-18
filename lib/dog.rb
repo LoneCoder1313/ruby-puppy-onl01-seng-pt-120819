@@ -10,7 +10,7 @@ class Dog
 	end
 def all_dog_names(all)
      self.all = all 
-     @@all = all 
+     @@all << self 
 		end 
 		def print_all(all_dog_name)
 		  self. print_all = all_dog_name
