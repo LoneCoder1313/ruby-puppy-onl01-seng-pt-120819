@@ -16,8 +16,9 @@ def all_dog_names(all)
 		  print_all.each { |dog_name| puts dog_name.name }
 		end 
 		
-			def self.save 
-	  @@all.save = self 
+			def save_dog_names(save) 
+	   self.save = save 
+	   @save = save 
 	end
 		
 	def self.clear_all
